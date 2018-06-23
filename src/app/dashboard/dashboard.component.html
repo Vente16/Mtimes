@@ -1,0 +1,44 @@
+<div class="container">
+   <div class="row" style="padding-top: 50px;">
+       <div class="col-md-6">
+      <canvas baseChart
+                  [data]="doughnutChartData"
+                  [labels]="doughnutChartLabels"
+                  [chartType]="doughnutChartType"
+                  (chartHover)="chartHovered($event)"
+                  (chartClick)="chartClicked($event)">
+                
+          </canvas>
+       </div>
+
+       <hr>
+
+ <div class="col-md-6">
+        <br/>
+       <canvas baseChart
+            [datasets]="barChartData"
+            [labels]="barChartLabels"
+            [options]="barChartOptions"
+            [legend]="barChartLegend"
+            [chartType]="barChartType"
+            (chartHover)="chartHovered($event)"
+            (chartClick)="chartClicked($event)"></canvas>
+
+   </div>         
+            
+    </div><br>
+
+     <hr>
+
+    <div class="row">
+    	  <div class="col-md-8">
+    	  	  <canvas baseChart
+          [data]="polarAreaChartData"
+          [labels]="polarAreaChartLabels"
+          [legend]="polarAreaLegend"
+          [chartType]="polarAreaChartType"
+          (chartHover)="chartHovered($event)"
+          (chartClick)="chartClicked($event)"></canvas>
+    	  </div>		
+    </div>
+</div>

@@ -1,0 +1,8 @@
+{
+  "/api/*":{
+   "target": "https://jvente18.000webhostapp.com",
+   "secure":false,
+   "changeOrigin": true
+  }
+
+}

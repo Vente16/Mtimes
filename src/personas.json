@@ -1,0 +1,28 @@
+{"personas" :[
+    { "nombre": "Jhon",
+	  "Edad":  20,
+	  "Ocupación": "Progrmador"
+	},
+
+	 { "nombre": "Ana",
+	  "Edad":  42,
+	  "Ocupación": "Mesera"
+	},
+
+	 { "nombre": "Carlos",
+	  "Edad":  30,
+	  "Ocupación": "Diseñador gráfico"
+	},
+	 { "nombre": "Danna",
+	  "Edad":  25,
+	  "Ocupación": "Aquitecta"
+	},
+	 { "nombre": "Andres",
+	  "Edad":  24,
+	  "Ocupación": "Profesor"
+	}
+
+
+]
+
+}

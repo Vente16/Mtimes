@@ -1,0 +1,23 @@
+<div class="contanier">
+
+    <div class="col-md-12" style="padding-top: 30px;">
+      <div class="card mb-8 box-shadow" *ngFor="let noticia of info">
+        <img class="card-img-top img-responsive" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 10%; width: 80%; display: block; margin-left: 10%;" src="{{noticia.Foto}}" data-holder-rendered="true">
+        <div class="card-body" style="text-align: center">
+        	<h3>{{noticia.Titulo}}</h3>
+          <p class="card-text">{{noticia.Descripcion}}</p>
+          <div class="align-items-center" style="text-align: center">
+            <div class="btn-group">
+              <a class="btn btn-info" [routerLink]="['/noticias']">Atrás</a>&nbsp;
+              <a class="btn btn-dark" style="color: #fff">Editar</a>&nbsp;
+              <a class="btn btn-danger" style="color: #fff">Eliminar</a>&nbsp;
+            </div>
+           
+          </div>
+        </div>
+      </div>
+
+     </div> 
+
+    
+</div>
