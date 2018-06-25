@@ -56,7 +56,8 @@ Registra una nueva noticia `https://jvente18.000webhostapp.com/nuevaNoticia` <br
 Datos:<br>
 
 
-```json {
+```json 
+  {
    "Titulo":"Ejemplo",
    "Descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio laboriosam magnam animi asperiores sit eum numquam sapiente ullam veniam ab laudantium eligendi, et laborum nisi impedit. Nisi sapiente, ipsa quia.",
    "Foto":"url de una imagen"
@@ -67,7 +68,8 @@ Datos:<br>
 
 Actualizar una noticia `https://jvente18.000webhostapp.com/actualizarNoticia` <br/>
 Datos:<br>
-```json {
+```json 
+  {
    "Id": "1",
    "Titulo":"Ejemplo",
    "Descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio laboriosam magnam animi asperiores sit eum numquam sapiente ullam veniam ab laudantium eligendi, et laborum nisi impedit. Nisi sapiente, ipsa quia.",
@@ -82,7 +84,8 @@ Registra una nueva publicación `https://jvente18.000webhostapp.com/nuevaPublica
 Datos: <br>
 
 
-```json {
+```json 
+{
    "Titulo":"Ejemplo",
    "Descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio laboriosam magnam animi asperiores sit eum numquam sapiente ullam veniam ab laudantium eligendi, et laborum nisi impedit. Nisi sapiente, ipsa quia.",
    "Foto":"url de una imagen"
@@ -111,7 +114,8 @@ Registra una nueva evento `https://jvente18.000webhostapp.com/nuevaEvento` <br>
 
 Datos: <br>
 
-```json{
+```json
+{
    "Nombre":"Ejemplo",
    "Descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio laboriosam magnam animi asperiores sit eum numquam sapiente ullam veniam ab laudantium eligendi, et laborum nisi impedit. Nisi sapiente, ipsa quia.",
    "Foto":"url de una imagen",
@@ -126,7 +130,8 @@ Actualizar una publicación `https://jvente18.000webhostapp.com/actualizarEvento
 
 Datos:<br>
 
-```json{
+```json
+{
    "Id": "1",
    "Nombre":"Ejemplo",
    "Descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio laboriosam magnam animi asperiores sit eum numquam sapiente ullam veniam ab laudantium eligendi, et laborum nisi impedit. Nisi sapiente, ipsa quia.",
