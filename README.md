@@ -48,101 +48,84 @@ Retorna las publicaciones `https://jvente18.000webhostapp.com/publicaciones`<br/
 
 Retorna la información de una publicación `https://jvente18.000webhostapp.com/publicacion/{id}`<br/>
 
-Elimina una publicación `https://jvente18.000webhostapp.com/eliminarPublicacion/{id}`<br/>
+Elimina una publicación `https://jvente18.000webhostapp.com/eliminarPublicacion/{id}`<br/><hr>
 
 Peticiones para le método `POST`
 
-Registra una nueva noticia `https://jvente18.000webhostapp.com/nuevaNoticia`
+Registra una nueva noticia `https://jvente18.000webhostapp.com/nuevaNoticia` <br>
+Datos:<br>
 
 
-Datos:
+` {
+   "Titulo":"Ejemplo",
+   "Descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio laboriosam magnam animi asperiores sit eum numquam sapiente ullam veniam ab laudantium eligendi, et laborum nisi impedit. Nisi sapiente, ipsa quia.",
+   "Foto":"url de una imagen"
+} `<br>
 
 
-```json
-     {
-        "Titulo": "Ejemplo",
-        "Descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio laboriosam magnam animi asperiores sit eum numquam sapiente ullam veniam ab laudantium eligendi, et laborum nisi impedit. Nisi sapiente, ipsa quia.",
-        "Foto": "url de una imagen"
+   
 
-     }
-    ```
-
-Actualizar una noticia `https://jvente18.000webhostapp.com/actualizarNoticia`
-
-Datos:
-
-```json
-     {
-     	"Id": "1",
-        "Titulo": "Ejemplo acualizado",
-        "Descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio laboriosam magnam animi asperiores sit eum numquam sapiente ullam veniam ab laudantium eligendi, et laborum nisi impedit. Nisi sapiente, ipsa quia.",
-        "Foto": "url de una imagen acutualizada"
-
-     }
-    ```
+Actualizar una noticia `https://jvente18.000webhostapp.com/actualizarNoticia` <br/>
+Datos:<br>
+` {
+   "Id": "1",
+   "Titulo":"Ejemplo",
+   "Descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio laboriosam magnam animi asperiores sit eum numquam sapiente ullam veniam ab laudantium eligendi, et laborum nisi impedit. Nisi sapiente, ipsa quia.",
+   "Foto":"url de una imagen"
+} `<br>
 
 
-Registra una nueva publicación `https://jvente18.000webhostapp.com/nuevaPublicacion`
+Registra una nueva publicación `https://jvente18.000webhostapp.com/nuevaPublicacion` <br>
 
-Datos:
-
-
-```json
-     {
-        "Titulo": "Ejemplo",
-        "Descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio laboriosam magnam animi asperiores sit eum numquam sapiente ullam veniam ab laudantium eligendi, et laborum nisi impedit. Nisi sapiente, ipsa quia.",
-        "Foto": "url de una imagen"
-
-     }
-    ```
-
-Actualizar una publicación `https://jvente18.000webhostapp.com/actualizarPublicacion`
-
-Datos:
-
-```json
-     {
-     	"Id": "1",
-        "Titulo": "Ejemplo acualizado",
-        "Descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio laboriosam magnam animi asperiores sit eum numquam sapiente ullam veniam ab laudantium eligendi, et laborum nisi impedit. Nisi sapiente, ipsa quia.",
-        "Foto": "url de una imagen acutualizada"
-
-     }
-    ```
+Datos: <br>
 
 
-Registra una nueva evento `https://jvente18.000webhostapp.com/nuevaEvento`
-
-Datos:
-
-```json
-     {
-        "Nombre": "Ejemplo",
-        "Descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio laboriosam magnam animi asperiores sit eum numquam sapiente ullam veniam ab laudantium eligendi, et laborum nisi impedit. Nisi sapiente, ipsa quia.",
-        "Foto": "url de una imagen",
-        "Fecha": "2018-24-06",
-        "Lugar": "Lugar del evento",
-        "Hora": "14:00"
-
-     }
-    ```
-
-Actualizar una publicación `https://jvente18.000webhostapp.com/actualizarEvento`
-
-Datos:
+` {
+   "Titulo":"Ejemplo",
+   "Descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio laboriosam magnam animi asperiores sit eum numquam sapiente ullam veniam ab laudantium eligendi, et laborum nisi impedit. Nisi sapiente, ipsa quia.",
+   "Foto":"url de una imagen"
+} `<br>
 
 
-```json
-     {
-     	"Id": "1",
-        "Nombre": "Ejemplo",
-        "Descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio laboriosam magnam animi asperiores sit eum numquam sapiente ullam veniam ab laudantium eligendi, et laborum nisi impedit. Nisi sapiente, ipsa quia.",
-        "Foto": "url de una imagen",
-        "Fecha": "2018-24-06",
-        "Lugar": "Lugar del evento",
-        "Hora": "14:00"
+Actualizar una publicación `https://jvente18.000webhostapp.com/actualizarPublicacion` <br>
 
-     }
-    ```
+Datos: <br>
 
+` {
+   "Id": "1",
+   "Titulo":"Ejemplo",
+   "Descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio laboriosam magnam animi asperiores sit eum numquam sapiente ullam veniam ab laudantium eligendi, et laborum nisi impedit. Nisi sapiente, ipsa quia.",
+   "Foto":"url de una imagen"
+} `<br>
+
+
+
+Registra una nueva evento `https://jvente18.000webhostapp.com/nuevaEvento` <br>
+
+Datos: <br>
+
+`{
+   "Nombre":"Ejemplo",
+   "Descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio laboriosam magnam animi asperiores sit eum numquam sapiente ullam veniam ab laudantium eligendi, et laborum nisi impedit. Nisi sapiente, ipsa quia.",
+   "Foto":"url de una imagen",
+   "Fecha":"2018-24-06",
+   "Lugar":"Lugar del evento",
+   "Hora":"14:00"
+}
+`<br>
+
+Actualizar una publicación `https://jvente18.000webhostapp.com/actualizarEvento`<br>
+
+Datos:<br>
+
+`{
+   "Id": "1",
+   "Nombre":"Ejemplo",
+   "Descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio laboriosam magnam animi asperiores sit eum numquam sapiente ullam veniam ab laudantium eligendi, et laborum nisi impedit. Nisi sapiente, ipsa quia.",
+   "Foto":"url de una imagen",
+   "Fecha":"2018-24-06",
+   "Lugar":"Lugar del evento",
+   "Hora":"14:00"
+}
+`
 
