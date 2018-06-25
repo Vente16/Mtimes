@@ -32,21 +32,32 @@ Api para el consumo de la aplicación (https://jvente18.000webhostapp.com).
 Peticiones para le método `GET`
 
 Retorna las notcias `https://jvente18.000webhostapp.com/noticias`
-Retorna la información de una notcia `https://jvente18.000webhostapp.com/noticia/{id}`
-Elimina una notcia `https://jvente18.000webhostapp.com/eliminarNoticia/{id}`
 
-Retorna las eventos `https://jvente18.000webhostapp.com/eventos`
-Retorna la información de una evento `https://jvente18.000webhostapp.com/evento/{id}`
-Elimina una evento `https://jvente18.000webhostapp.com/eliminarEvento/{id}`
 
-Retorna las publicaciones `https://jvente18.000webhostapp.com/publicaciones`
-Retorna la información de una publicación `https://jvente18.000webhostapp.com/publicacion/{id}`
-Elimina una publicación `https://jvente18.000webhostapp.com/eliminarPublicacion/{id}`
+Retorna la información de una notcia `https://jvente18.000webhostapp.com/noticia/{id}` <br/>
+
+Elimina una notcia `https://jvente18.000webhostapp.com/eliminarNoticia/{id}`<br/> 
+
+Retorna las eventos `https://jvente18.000webhostapp.com/eventos`<br/>
+
+Retorna la información de una evento `https://jvente18.000webhostapp.com/evento/{id}`<br/>
+
+Elimina una evento `https://jvente18.000webhostapp.com/eliminarEvento/{id}`<br/>
+
+Retorna las publicaciones `https://jvente18.000webhostapp.com/publicaciones`<br/>
+
+Retorna la información de una publicación `https://jvente18.000webhostapp.com/publicacion/{id}`<br/>
+
+Elimina una publicación `https://jvente18.000webhostapp.com/eliminarPublicacion/{id}`<br/>
 
 Peticiones para le método `POST`
 
 Registra una nueva noticia `https://jvente18.000webhostapp.com/nuevaNoticia`
+
+
 Datos:
+
+
 ```json
      {
         "Titulo": "Ejemplo",
@@ -57,7 +68,9 @@ Datos:
     ```
 
 Actualizar una noticia `https://jvente18.000webhostapp.com/actualizarNoticia`
+
 Datos:
+
 ```json
      {
      	"Id": "1",
@@ -68,8 +81,12 @@ Datos:
      }
     ```
 
+
 Registra una nueva publicación `https://jvente18.000webhostapp.com/nuevaPublicacion`
+
 Datos:
+
+
 ```json
      {
         "Titulo": "Ejemplo",
@@ -80,7 +97,9 @@ Datos:
     ```
 
 Actualizar una publicación `https://jvente18.000webhostapp.com/actualizarPublicacion`
+
 Datos:
+
 ```json
      {
      	"Id": "1",
@@ -93,7 +112,9 @@ Datos:
 
 
 Registra una nueva evento `https://jvente18.000webhostapp.com/nuevaEvento`
+
 Datos:
+
 ```json
      {
         "Nombre": "Ejemplo",
@@ -107,7 +128,10 @@ Datos:
     ```
 
 Actualizar una publicación `https://jvente18.000webhostapp.com/actualizarEvento`
+
 Datos:
+
+
 ```json
      {
      	"Id": "1",
