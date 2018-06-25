@@ -33,9 +33,10 @@ export class NuevaNoticiaComponent implements OnInit {
     onSubmit(f: NgForm){
         
       let datos = f.value;
-      let info = this.servicio.nuevaNoticia(datos);
+      let la = this.servicio.nuevaNoticia(datos);
+      console.log(la);
 
-      console.log(info);
+      
       //this.toastr.success('Noticia registrada correctamente', 'Operación exitosa');
     	
 

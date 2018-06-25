@@ -17,6 +17,7 @@ import { NoticiasComponent } from './noticias/noticias.component';
 import { VerNoticiaComponent } from './noticias/ver-noticia/ver-noticia.component';
 import { NuevaNoticiaComponent } from './noticias/nueva-noticia/nueva-noticia.component';
 import { NoticiasServiceService } from './models/noticias-service.service';
+import { DashboardServiceService } from './models/dashboard-service.service';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
 import { FormsModule }   from '@angular/forms';
@@ -44,7 +45,7 @@ import { FormsModule }   from '@angular/forms';
     ToastrModule.forRoot(),
   
   ],
-  providers: [NoticiasServiceService],
+  providers: [NoticiasServiceService, DashboardServiceService],
   bootstrap: [AppComponent, MenuComponent]
 })
 export class AppModule { }

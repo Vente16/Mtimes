@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { DashboardServiceService } from '../models/dashboard-service.service';
+
 import { Title } from '@angular/platform-browser';
 import { Router } from '@angular/router';
 
@@ -10,12 +12,21 @@ import { Router } from '@angular/router';
 })
 export class DashboardComponent implements OnInit {
 
-  constructor(private router: Router, 
-  	private titleService: Title) { }
+  constructor(
+    private router: Router, 
+  	private titleService: Title,
+    private servicio:DashboardServiceService) { }
+
+    public noticias;
+    public publicaciones;
+    public eventos;
 
   ngOnInit() {
 
   	this.titleService.setTitle('Mtimes');
+    let am = this.servicio.getGraficas();
+    console.log(am);
+    
   }
 
     // Doughnut
